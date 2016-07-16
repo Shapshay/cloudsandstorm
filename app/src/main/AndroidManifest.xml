@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skiv.sobiraika">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.skiv.cloudsandstorm.MenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.skiv.cloudsandstorm.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skiv.cloudsandstorm.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skiv.cloudsandstorm.GameOverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skiv.cloudsandstorm.WinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skiv.cloudsandstorm.StandoffActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skiv.cloudsandstorm.RulesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.skiv.cloudsandstorm.TwoActivity" />
+        <activity android:name="com.skiv.cloudsandstorm.ChertWinActivity" />
+        <activity android:name="com.skiv.cloudsandstorm.AngelWinActivity" />
+        <activity android:name="com.skiv.cloudsandstorm.SettingsTwoActivity"/>
+    </application>
+
+</manifest>
